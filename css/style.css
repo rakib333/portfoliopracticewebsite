@@ -1,0 +1,134 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a{
+    text-decoration: none;
+}
+ul, li {
+    list-style-type: none;
+}
+.header-bg {
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position:bottom right, left;
+    background-size:contain;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 200px;
+}
+
+.nav-title {
+    font-size: 45px;
+    color: #181818;
+    font-weight: 800;
+}
+.nav-title span{
+    color: orange;
+}
+
+.menu ul {
+    display: flex;
+}
+.menu ul li {
+    margin-right: 40px;
+}
+.menu ul li a {
+    font-size: 20px;
+    color: #474747;
+}
+.menu ul li button{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 15px;
+    background-color: #FD6E0A;
+    border-radius: 10px;
+    border: none;
+}
+
+.mr {
+    margin-right: none;
+}
+
+
+/* banner part style  */
+.banner-part {
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+}
+.title-one {
+    font-size: 45px;
+    font-weight: 700;
+    color: #474747;
+}
+.title-two {
+    font-size: 70px;
+    font-weight: 800;
+    color: #181818;
+}
+.banner-para {
+    font-size: 18px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.banner-btn button{
+    padding: 10px 15px;
+    font-size: 20px;
+    background-color: #FD6E0A;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    margin-right: 15px;
+}
+/* .banner-image {
+    background-image: url(../images/header_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+} */
+
+.banner-image img {
+    width: 100%;
+}
+
+
+/* main part start  */
+#main-body {
+    width: 1140px;
+    margin: 50px auto;
+    background-color: #FFF8F3;
+    border-radius: 20px;
+    text-align: center;
+}
+.about-main {
+    padding: 40px 50px;
+}
+.about-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-title {
+    font-size: 25px;
+    color: #181818;
+    margin-bottom: 30px;
+}
+.about-para {
+    font-size: 15px;
+    color: #181818;
+    margin-bottom: 20px;
+}
